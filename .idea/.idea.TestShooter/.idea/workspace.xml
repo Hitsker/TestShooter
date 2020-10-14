@@ -21,8 +21,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FOVChanger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunMirror.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602675415478</updated>
-      <workItem from="1602675433911" duration="6716000" />
+      <workItem from="1602675433911" duration="7349000" />
     </task>
     <servers />
   </component>

@@ -10,28 +10,31 @@ public class MovementController : MonoBehaviour
     private Transform _transform;
     private Vector3 _position;
 
+    private string _horizontalAxeName;
+    private string _verticalAxeName;
+
     private void Start()
     {
         _transform = transform;
         _position = _transform.position;
+
+        switch (_playerType)
+        {
+            case PlayerType.Arrows:
+                _horizontalAxeName = "HorizontalArrows";
+                _verticalAxeName = "VerticalArrows";
+                break;
+            case PlayerType.WASD:
+                _horizontalAxeName = "HorizontalWasd";
+                _verticalAxeName = "VerticalWasd";
+                break;
+        }
     }
 
     void Update ()
     {
-        float deltaX = 0;
-        float deltaZ = 0;
-        
-        if (_playerType == PlayerType.Arrows)
-        {
-            deltaX = Input.GetAxis("HorizontalArrows") * speed;
-            deltaZ = Input.GetAxis("VerticalArrows") * speed;
-        }
-        else if (_playerType == PlayerType.WASD)
-        {
-            deltaX = Input.GetAxis("HorizontalWasd") * speed;
-            deltaZ = Input.GetAxis("VerticalWasd") * speed;
-        }
-        
+        var deltaX = Input.GetAxis(_horizontalAxeName) * speed;
+        var deltaZ = Input.GetAxis(_verticalAxeName) * speed;
 
         _transform.Translate(deltaX * Time.deltaTime, 0, deltaZ * Time.deltaTime);
         
