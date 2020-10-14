@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="FOVChanger.cs" t="Include" />
+          <e p="GunMirror.cs" t="Include" />
           <e p="MouseController.cs" t="Include" />
           <e p="MovementController.cs" t="Include" />
         </e>
