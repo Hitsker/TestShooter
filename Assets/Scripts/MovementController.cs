@@ -33,11 +33,15 @@ public class MovementController : MonoBehaviour
 
     void Update ()
     {
+        Move();
+    }
+
+    private void Move()
+    {
         var deltaX = Input.GetAxis(_horizontalAxeName) * speed;
         var deltaZ = Input.GetAxis(_verticalAxeName) * speed;
 
         _transform.Translate(deltaX * Time.deltaTime, 0, deltaZ * Time.deltaTime);
-        
     }
 }
 
