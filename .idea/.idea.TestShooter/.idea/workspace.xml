@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FOVChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunMirror.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ColoringWindow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,6 +24,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FOVChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunMirror.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/WallEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/ColoringMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/ColoringWindow.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602675415478</updated>
-      <workItem from="1602675433911" duration="8212000" />
+      <workItem from="1602675433911" duration="10333000" />
+      <workItem from="1603099727076" duration="1867000" />
     </task>
     <servers />
   </component>
