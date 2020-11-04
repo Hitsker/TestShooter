@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(Wall))]
-public class WallEditor : Editor
+public class WallEditor : UnityEditor.Editor
 {
     public override void OnInspectorGUI()
     {
