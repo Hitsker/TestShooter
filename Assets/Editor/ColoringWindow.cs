@@ -25,6 +25,5 @@ public class ColoringWindow : EditorWindow
                 renderer.material.color=color;
             }
         }
-        EditorGUILayout.EndToggleGroup();
     }
 }

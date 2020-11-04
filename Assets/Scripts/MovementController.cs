@@ -7,7 +7,7 @@ public class MovementController : MonoBehaviour
 {
     [SerializeField] private string _horName;
     [SerializeField] private string _verName;
-    private float speed = 3f;
+    [SerializeField] private float speed = 3f;
     
     private Transform _transform;
     private Vector3 _position;
@@ -16,6 +16,11 @@ public class MovementController : MonoBehaviour
     {
         _transform = transform;
         _position = _transform.position;
+
+        if (PlayerPrefs.GetFloat("speed")>0)
+        {
+            speed = PlayerPrefs.GetFloat("speed");
+        }
     }
 
     void Update ()

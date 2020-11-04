@@ -10,6 +10,7 @@
         <e p="Editor" t="Include">
           <e p="ColoringMenu.cs" t="Include" />
           <e p="ColoringWindow.cs" t="Include" />
+          <e p="DataLoader.cs" t="Include" />
           <e p="WallEditor.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
